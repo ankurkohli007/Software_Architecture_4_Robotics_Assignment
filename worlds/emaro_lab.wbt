@@ -1,0 +1,437 @@
+#VRML_SIM R2022a utf8
+WorldInfo {
+  info [
+    "An office break room, surrounded by office desks."
+  ]
+  basicTimeStep 20
+}
+Viewpoint {
+  fieldOfView 0.5
+  orientation 0.3106141220315909 -0.4217360254271967 -0.8518553821227021 4.728418991237339
+  position -22.909710722988606 -75.6448631603873 68.22696856717607
+  near 1
+  follow "TIAGo Iron"
+  followType "None"
+  followSmoothness 0
+}
+TexturedBackground {
+  texture "entrance_hall"
+  luminosity 0.5
+  skybox FALSE
+}
+Floor {
+  size 30 30
+  appearance ThreadMetalPlate {
+  }
+}
+Door {
+  translation 2.0728 1.95117 0
+  rotation 0 0 1 3.14158
+}
+Door {
+  translation 0.601695 2.86603 0
+  rotation 0 0 1 -2.094405307179586
+  name "door(1)"
+}
+ElectricalCabinet {
+  translation -1.76315e-06 0.48 0
+  rotation 0 0 1 1.5708
+}
+Cabinet {
+  translation -5.13763 2.74111 0
+  rotation 0 0 1 -0.9
+  rowsHeights [
+    0.36, 0.2, 0.2, 0.4, 0.9
+  ]
+  columnsWidths [
+    1.5, 0.17, 0.17
+  ]
+}
+Table {
+  translation -2.79206 2.08698 0
+  rotation 0 0 -1 -0.523595307179586
+  name "table(4)"
+  size 0.6 0.6 0.74
+}
+Table {
+  translation -1.72688 2.70198 0
+  rotation 0 0 -1 -0.523595307179586
+  name "table(8)"
+  size 0.6 0.6 0.74
+}
+Table {
+  translation -2.79206 2.08698 0
+  rotation 0 0 -1 -0.523595307179586
+  name "table(9)"
+  size 0.6 0.6 0.74
+}
+Table {
+  translation -3.09206 2.60658 0
+  rotation 0 0 -1 -0.523595307179586
+  name "table(11)"
+  size 0.6 0.6 0.74
+}
+Table {
+  translation -2.5638 2.91158 0
+  rotation 0 0 -1 -0.523595307179586
+  name "table(12)"
+  size 0.6 0.6 0.74
+}
+Table {
+  translation -2.03554 3.21658 0
+  rotation 0 0 -1 -0.523595307179586
+  name "table(13)"
+  size 0.6 0.6 0.74
+}
+Table {
+  translation -3.39206 3.12618 0
+  rotation 0 0 -1 -0.523595307179586
+  name "table(14)"
+  size 0.6 0.6 0.74
+}
+Table {
+  translation -2.88978 3.41618 0
+  rotation 0 0 -1 -0.523595307179586
+  name "table(15)"
+  size 0.6 0.6 0.74
+}
+Table {
+  translation -2.3442 3.73118 0
+  rotation 0 0 -1 -0.523595307179586
+  name "table(16)"
+  size 0.6 0.6 0.74
+}
+Table {
+  translation -2.2638 2.39198 0
+  rotation 0 0 -1 -0.523595307179586
+  name "table(10)"
+  size 0.6 0.6 0.74
+}
+Table {
+  translation -3.57 -3 0
+  rotation 0 1 0 0
+  name "table(7)"
+  size 0.8 1.65 0.74
+}
+Table {
+  translation -4.37 0.31 0
+  rotation 0 1 0 0
+  name "table(6)"
+  size 0.8 1.65 0.74
+}
+Table {
+  translation -3.57 -1.35 0
+  rotation 0 1 0 0
+  name "table(5)"
+  size 0.8 1.65 0.74
+}
+Table {
+  translation -4.36 -3 0
+  rotation 0 1 0 0
+  name "table(3)"
+  size 0.8 1.65 0.74
+}
+Table {
+  translation -4.37 -1.33 0
+  rotation 0 1 0 0
+  name "table(2)"
+  size 0.8 1.65 0.74
+}
+Table {
+  translation -3.57 0.3 0
+  rotation 0 1 0 0
+  name "table(1)"
+  size 0.8 1.65 0.74
+}
+Wall {
+  name "wall(B)1"
+  size 0.1 0.1 1
+  appearance DEF INTER_WALLS Roughcast {
+    colorOverride 0.390196 0.503922 1
+    textureTransform TextureTransform {
+    }
+  }
+}
+Wall {
+  translation -1.13511 0.396302 0
+  rotation 0 0 1 1.5
+  name "pillar 1"
+  size 0.46 1 3
+  appearance DEF INTER_WALLS Roughcast {
+    textureTransform TextureTransform {
+      scale 0.3 2.2
+    }
+  }
+}
+Wall {
+  translation -0.839256 4.16833 0
+  rotation 0 0 1 2.2854
+  name "pillar 1(2)"
+  size 3 0.15 3
+  appearance DEF INTER_WALLS Roughcast {
+    textureTransform TextureTransform {
+      scale 0.3 2.2
+    }
+  }
+}
+Wall {
+  translation 2.00514 0.706322 0
+  rotation 0 0 1 -1.6
+  name "pillar 1(7)"
+  size 1.5 0.15 3
+  appearance DEF INTER_WALLS Roughcast {
+    textureTransform TextureTransform {
+      scale 0.3 2.2
+    }
+  }
+}
+Wall {
+  translation 3.19121 -0.128689 0
+  rotation 0 0 1 3
+  name "pillar 1(8)"
+  size 2.5 0.15 3
+  appearance DEF INTER_WALLS Roughcast {
+    textureTransform TextureTransform {
+      scale 0.3 2.2
+    }
+  }
+}
+Wall {
+  translation 5.43858 -2.69587 0
+  rotation 0 0 -1 1.45059
+  name "pillar 1(12)"
+  size 2.5 0.15 3
+  appearance DEF INTER_WALLS Roughcast {
+    textureTransform TextureTransform {
+      scale 0.3 2.2
+    }
+  }
+}
+Wall {
+  translation 4.99388 -3.88439 0
+  rotation 0 0 1 -3.1
+  name "pillar 1(13)"
+  size 1.2 0.15 3
+  appearance DEF INTER_WALLS Roughcast {
+    textureTransform TextureTransform {
+      scale 0.3 2.2
+    }
+  }
+}
+Wall {
+  translation 4.48227 -4.33599 0
+  rotation 0 0 -1 1.5292
+  name "pillar 1(14)"
+  size 1 0.15 3
+  appearance DEF INTER_WALLS Roughcast {
+    textureTransform TextureTransform {
+      scale 0.3 2.2
+    }
+  }
+}
+Wall {
+  translation 2.01558 -6.87077 0
+  rotation 0 0 -1 1.5292
+  name "pillar 1(18)"
+  size 0.5 0.15 3
+  appearance DEF INTER_WALLS Roughcast {
+    textureTransform TextureTransform {
+      scale 0.3 2.2
+    }
+  }
+}
+Wall {
+  translation -5.89793 -6.22941 0
+  rotation 0 0 -1 1.5292
+  name "pillar 1(20)"
+  size 1.1 0.15 3
+  appearance DEF INTER_WALLS Roughcast {
+    textureTransform TextureTransform {
+      scale 0.3 2.2
+    }
+  }
+}
+Wall {
+  translation 4.834 -4.85179 0
+  rotation 0 0 1 0.0415963
+  name "pillar 1(15)"
+  size 0.8 0.15 3
+  appearance DEF INTER_WALLS Roughcast {
+    textureTransform TextureTransform {
+      scale 0.3 2.2
+    }
+  }
+}
+Wall {
+  translation 5.21322 -5.78676 0
+  rotation 0 0 1 1.61239
+  name "pillar 1(16)"
+  size 1.9 0.15 3
+  appearance DEF INTER_WALLS Roughcast {
+    textureTransform TextureTransform {
+      scale 0.3 2.2
+    }
+  }
+}
+Wall {
+  translation 3.65251 -6.72308 0
+  rotation 0 0 1 3.1
+  name "pillar 1(17)"
+  size 3.4 0.15 3
+  appearance DEF INTER_WALLS Roughcast {
+    textureTransform TextureTransform {
+      scale 0.3 2.2
+    }
+  }
+}
+Wall {
+  translation -1.8931 -6.98263 0
+  rotation 0 0 1 3.1
+  name "pillar 1(19)"
+  size 8 0.15 3
+  appearance DEF INTER_WALLS Roughcast {
+    textureTransform TextureTransform {
+      scale 0.3 2.2
+    }
+  }
+}
+Wall {
+  translation -3.87448 3.80106 0
+  rotation 0 0 1 -0.9
+  name "pillar 1(3)"
+  size 0.15 5 3
+  appearance DEF INTER_WALLS Roughcast {
+    textureTransform TextureTransform {
+      scale 0.3 2.2
+    }
+  }
+}
+Wall {
+  translation -5.5481 -1.30164 0
+  rotation 0 0 1 1.5
+  name "pillar 1(5)"
+  size 5.6 0.15 3
+  appearance DEF INTER_WALLS Roughcast {
+    textureTransform TextureTransform {
+      scale 0.3 2.2
+    }
+  }
+}
+Wall {
+  translation -5.81553 -5.07215 2
+  rotation 0 0 1 1.5
+  name "pillar 1(11)"
+  size 2 0.15 1
+  appearance DEF INTER_WALLS Roughcast {
+    textureTransform TextureTransform {
+      scale 0.3 2.2
+    }
+  }
+}
+Wall {
+  translation -5.63736 1.89742 0
+  rotation 0 0 1 2.21239
+  name "pillar 1(4)"
+  size 1 0.15 3
+  appearance DEF INTER_WALLS Roughcast {
+    textureTransform TextureTransform {
+      scale 0.3 2.2
+    }
+  }
+}
+Wall {
+  translation -0.109058 0.163134 0
+  rotation 0 0 1 1.5
+  name "pillar 1(1)"
+  size 0.15 1.1 3
+  appearance DEF INTER_WALLS Roughcast {
+    textureTransform TextureTransform {
+      scale 0.3 2.2
+    }
+  }
+}
+Wall {
+  translation 1.48788 2.46585 0
+  rotation 0 0 1 1.5
+  name "pillar 1(6)"
+  size 0.15 1.1 3
+  appearance DEF INTER_WALLS Roughcast {
+    textureTransform TextureTransform {
+      scale 0.3 2.2
+    }
+  }
+}
+Wall {
+  translation 4.2882 -0.88056 0
+  rotation 0 0 1 3.0708
+  name "pillar 1(9)"
+  size 0.15 1.1 3
+  appearance DEF INTER_WALLS Roughcast {
+    textureTransform TextureTransform {
+      scale 0.3 2.2
+    }
+  }
+}
+Wall {
+  translation 4.71394 -1.52227 0
+  rotation 0 0 -1 -1.5000053071795865
+  name "pillar 1(10)"
+  size 0.15 1.1 3
+  appearance DEF INTER_WALLS Roughcast {
+    textureTransform TextureTransform {
+      scale 0.3 2.2
+    }
+  }
+}
+Wall {
+  translation -1.50595 -3.27674 0
+  rotation 0 0 1 1.5
+  name "pillar 2"
+  size 0.33 0.75 3
+  appearance DEF INTER_WALLS Roughcast {
+    textureTransform TextureTransform {
+      scale 0.3 2.2
+    }
+  }
+}
+Table {
+  translation -1.57797 -4.2801 0
+  rotation 0 0 1 -0.1
+  size 1 1.4 0.74
+}
+Table {
+  translation -1.20557 -0.56875 0
+  rotation 0 0 1 -0.1
+  name "table(17)"
+  size 1 1.4 0.74
+}
+TiagoIron {
+  translation 0.81 -3.17 0
+  controller "<extern>"
+  supervisor TRUE
+  cameraSlot [
+    DEF camera Camera {
+      translation 0 0.5 0
+      rotation 0 -1 0 1.5724987151386935
+      fieldOfView 0.6
+      width 800
+      height 600
+      zoom Zoom {
+        minFieldOfView 0.1
+      }
+    }
+  ]
+  lidarSlot [
+    Lidar {
+      name "hokuyo"
+      horizontalResolution 660
+      fieldOfView 3.14
+      numberOfLayers 1
+      maxRange 6
+    }
+    Display {
+      width 800
+      height 600
+    }
+  ]
+}
