@@ -1,7 +1,9 @@
-# [Software Architecture for Robotics Assignment](https://corsi.unige.it/en/off.f/2022/ins/60231)
+[Software Architecture for Robotics](https://corsi.unige.it/en/off.f/2022/ins/60231)
 [M.Sc Robotics Engineering](https://corsi.unige.it/corsi/10635)<br>
 [University of Genoa (UniGe)](https://unige.it/en)<br>
 **Supervisor:** [Prof. Fulvio Mastrogiovanni](https://rubrica.unige.it/personale/UkNHWFhr) & [Prof. Simone Macciò](https://rubrica.unige.it/personale/UUNAWFho)
+
+# Assignment: Implementation of Keepout Zones on a NAV2 Navigation System
 
 The goal of this assignment is to explore the tools of Nav2, in particular the use of a costmap filter to establish keepout zones. A 3D model of the mobile 
 robot TIAGo from PAL RObotics has been modeled to run in a custom 3D world built using Webots simulator. A 2D map of this 3D world is passed to Nav2 
