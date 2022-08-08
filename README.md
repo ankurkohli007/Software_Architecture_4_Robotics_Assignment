@@ -1,4 +1,4 @@
-[Software Architecture for Robotics](https://corsi.unige.it/en/off.f/2022/ins/60231)
+[Software Architecture for Robotics](https://corsi.unige.it/en/off.f/2022/ins/60231)<br>
 [M.Sc Robotics Engineering](https://corsi.unige.it/corsi/10635)<br>
 [University of Genoa (UniGe)](https://unige.it/en)<br>
 **Supervisor:** [Prof. Fulvio Mastrogiovanni](https://rubrica.unige.it/personale/UkNHWFhr) & [Prof. Simone Macciò](https://rubrica.unige.it/personale/UUNAWFho)
