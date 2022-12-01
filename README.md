@@ -21,7 +21,7 @@ through the use of the Map Server node. The keepout zones are also passed as 2D 
 ## How to run ##
  Clone this repository inside the src folder of your workspace:
  ```
- git clone https://github.com/dpareasy/sofar_assignment.git
+ git clone https://github.com/ankurkohli007/Software_Architecture_4_Robotics_Assignment.git
  ```
  Build the package and source:
  ```
