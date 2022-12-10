@@ -105,6 +105,10 @@ To fullfill the requirement the architecture of the assignment is designed as sh
 
 Here is the perfomance of the TIAGo Robot in the default environment. 
 
+## Conclusio ##
+
+I'm satisfied with the final result, even if better improvements can be done. First of all some parameters can be changed since they may be not optimal. 
+
 ## References ##
 
 * Steve Macenski reposotory for nav2: https://github.com/ros-planning/navigation2
