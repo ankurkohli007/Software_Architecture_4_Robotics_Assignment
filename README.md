@@ -57,10 +57,26 @@ Run the simulation:
 ros2 launch sofar_assignment robot_launch.py
 ```
  This is the command for the default simulation which launches the default world found in the Webots installation files and the relative costmap that we developed. To launch different costmap just add the following line as an argument of the previous command:
- ```
+ 
+Figure below shows the default Webots Environemnt of the TIAGo robot.
+ 
+![alt text](image1.png)
+ 
+Also, figure below shows the default [RVIz](http://wiki.ros.org/rviz) environment.
+ 
+![alt text](image2.png)
+
+The aforementioned task is also performed for the map of [EMARO Lab](https://github.com/EmaroLab) at [University of Genova (UniGe)](https://unige.it/en), Italy. The map is provided by the EMARO Lab team member [Prof. Simone Macciò](https://rubrica.unige.it/personale/UUNAWFho).
+
+![alt text](image3.png)
+
+Figure shown above is the 3D map of EMARO Lab. This can be design by making changes by the command below:
+
+```
  mask:=src/sofar_assignment/maps/<name-of-the-mask>.yaml
- ```
- where in the `<name-of-the-mask>` field you should put the name of a `.yaml` file present in the maps folder. You can follow the same method to set also the world and its relative 2D map file:
+```
+
+where in the `<name-of-the-mask>` field you should put the name of a `.yaml` file present in the maps folder. You can follow the same method to set also the world and its relative 2D map file:
 ```
 ros2 launch sofar_assignment robot_launch.py map:=src/sofar_assignment/maps/emaro_map.yaml world:=src/sofar_assignment/worlds/emaro_lab.wbt mask:=src/sofar_assignment/maps/emaro_keepout_mask2.yaml params_file:=src/sofar_assignment/params/emaro_nav2_params.yaml keepout_params_file:=src/sofar_assignment/params/emaro_keepout_params_2.yaml
 ```
