@@ -40,7 +40,7 @@ Let’s create a package to simulate a 3D turtlebot, making sure to specify depe
 ros2 pkg create --build-type ament_python --node-name robot_driver <package_name> --dependencies rclpy geometry_msgs webots_ros2_driver
 ```
 
-Furthermore, we want the simulation of TIAGo robots in Webots environment. To interface ROS2-Webots with a TIAGo robot in simulation [click here](https://github.com/ankurkohli007/webots_ros2/tree/master/webots_ros2_tiago). 
+Furthermore, we want the simulation of [TIAGo](https://pal-robotics.com/robots/tiago/) robots in Webots environment. To interface ROS2-Webots with a TIAGo robot in simulation [click here](https://github.com/ankurkohli007/webots_ros2/tree/master/webots_ros2_tiago). 
 
 Clone this repository inside the src folder of your workspace:
 ```
