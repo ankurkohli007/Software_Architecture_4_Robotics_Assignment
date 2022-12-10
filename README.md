@@ -19,6 +19,9 @@ through the use of the Map Server node. The keepout zones are also passed as 2D 
 * **URDF**: it's a folder containing the information about TIAGo.
 
 ## How to run ##
+
+For this assignment, [ROS2 Galactic](https://docs.ros.org/en/galactic/index.html)
+
  Clone this repository inside the src folder of your workspace:
  ```
  git clone https://github.com/ankurkohli007/Software_Architecture_4_Robotics_Assignment.git
