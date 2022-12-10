@@ -9,8 +9,6 @@ The goal of this assignment is to explore the tools of Nav2, in particular the u
 robot TIAGo from PAL RObotics has been modeled to run in a custom 3D world built using Webots simulator. A 2D map of this 3D world is passed to Nav2 
 through the use of the Map Server node. The keepout zones are also passed as 2D maps but they are processed by a different server called CostMap Filter. These servers are part of the Nav2 navigation system and have to be set up through the use of specific parameter files.
 
-## 
-
 ## Main contents of this Repository ##
 
 * **worlds**: it's a folder containing different `.wbt` files of 3D environments;
