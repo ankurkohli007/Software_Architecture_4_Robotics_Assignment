@@ -80,6 +80,10 @@ where in the `<name-of-the-mask>` field you should put the name of a `.yaml` fil
 ```
 ros2 launch sofar_assignment robot_launch.py map:=src/sofar_assignment/maps/emaro_map.yaml world:=src/sofar_assignment/worlds/emaro_lab.wbt mask:=src/sofar_assignment/maps/emaro_keepout_mask2.yaml params_file:=src/sofar_assignment/params/emaro_nav2_params.yaml keepout_params_file:=src/sofar_assignment/params/emaro_keepout_params_2.yaml
 ```
+Also, figure below shows the EMARO Lab [RVIz](http://wiki.ros.org/rviz) environment.
+
+![alt text](image4.png)
+
 ## Controlling the robot model ##
 The robot can be controlled in two different ways:
 * by using rviz user interface to give the robot a goal;
@@ -88,6 +92,19 @@ The robot can be controlled in two different ways:
   ```
   ros2 run sofar_assignment move_to_goal_exe
   ```
+
+## Architecture of the Assignment ##
+
+To fullfill the requirement the architecture of the assignment is designed as shown in figure below. Here is the idea behind the communication of the nodes: 
+
+![alt text](image6.png)
+
+## Performance of the TIAGo Robot ## 
+
+![Alt Text](output.gif)
+
+Here is the perfomance of the TIAGo Robot in the default environment. 
+
 ## References ##
 
 * Steve Macenski reposotory for nav2: https://github.com/ros-planning/navigation2
