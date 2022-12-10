@@ -20,22 +20,40 @@ through the use of the Map Server node. The keepout zones are also passed as 2D 
 
 ## How to run ##
 
-For this assignment, [ROS2 Galactic](https://docs.ros.org/en/galactic/index.html)
+For this assignment, [ROS2 Galactic](https://docs.ros.org/en/galactic/index.html) is required. To install ROS2 Galactic follow the steps on the this [link](https://docs.ros.org/en/rolling/Installation/Ubuntu-Install-Debians.html). After installing ROS2 Galactic, you need [Webots](https://cyberbotics.com/doc/guide/installation-procedure) simulation environment is required. Webots is a  free open-source 3D robot simulator, which you can easily install with the command:
 
- Clone this repository inside the src folder of your workspace:
- ```
- git clone https://github.com/ankurkohli007/Software_Architecture_4_Robotics_Assignment.git
- ```
- Build the package and source:
- ```
- colcon build
+```
+ sudo snap install webots
+```
+
+In particular, we want to exploit the ROS2-Webots interface which will enable us to create ROS2 simulation scenarios. After installing the simulator, you can install the interface via:
+
+```
+sudo apt update
  
- source install/local_setup.bash
- ```
- Run the simulation:
- ```
- ros2 launch sofar_assignment robot_launch.py
- ```
+sudo apt install ros-galactic-webots-ros2
+```
+ 
+Let’s create a package to simulate a 3D turtlebot, making sure to specify dependency from the webots_ros2_driver:
+ 
+```
+ros2 pkg create --build-type ament_python --node-name robot_driver <package_name> --dependencies rclpy geometry_msgs webots_ros2_driver
+```
+
+Clone this repository inside the src folder of your workspace:
+```
+git clone https://github.com/ankurkohli007/Software_Architecture_4_Robotics_Assignment.git
+```
+Build the package and source:
+```
+colcon build
+ 
+source install/local_setup.bash
+```
+Run the simulation:
+```
+ros2 launch sofar_assignment robot_launch.py
+```
  This is the command for the default simulation which launches the default world found in the Webots installation files and the relative costmap that we developed. To launch different costmap just add the following line as an argument of the previous command:
  ```
  mask:=src/sofar_assignment/maps/<name-of-the-mask>.yaml
