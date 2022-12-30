@@ -80,7 +80,7 @@ where in the `<name-of-the-mask>` field you should put the name of a `.yaml` fil
 ```
 ros2 launch sofar_assignment robot_launch.py map:=src/sofar_assignment/maps/emaro_map.yaml world:=src/sofar_assignment/worlds/emaro_lab.wbt mask:=src/sofar_assignment/maps/emaro_keepout_mask2.yaml params_file:=src/sofar_assignment/params/emaro_nav2_params.yaml keepout_params_file:=src/sofar_assignment/params/emaro_keepout_params_2.yaml
 ```
-Also, figure below shows the EMARO Lab [RVIz](http://wiki.ros.org/rviz) environment.
+Also, figure below shows the EMARO Lab [RViz](http://wiki.ros.org/rviz) environment.
 
 ![alt text](image4.png)
 
