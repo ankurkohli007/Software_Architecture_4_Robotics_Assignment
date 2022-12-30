@@ -105,7 +105,7 @@ To fullfill the requirement the architecture of the assignment is designed as sh
 
 Here is the perfomance of the TIAGo Robot in the default environment. 
 
-## Conclusio ##
+## Conclusion ##
 
 I'm satisfied with the final result, even if better improvements can be done. First of all some parameters can be changed since they may be not optimal. 
 
