@@ -96,6 +96,10 @@ Also, figure below shows the EMARO Lab [RViz](http://wiki.ros.org/rviz) environm
 
 ![alt text](image4.png)
 
+<p align="center">
+    <em>RViz environment of EMARO Lab</em>
+</p>
+
 ## Controlling the robot model ##
 The robot can be controlled in two different ways:
 * by using rviz user interface to give the robot a goal;
