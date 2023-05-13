@@ -70,7 +70,9 @@ Figure below shows the default Webots Environemnt of the TIAGo robot.
  
 Also, figure below shows the default [RViz](http://wiki.ros.org/rviz) environment.
  
-![alt text](image2.png)
+<p align="center">
+  <img width="900" height="500" src="https://github.com/ankurkohli007/Software_Architecture_4_Robotics_Assignment/blob/d42b8a2cf871a1a048672a3db2e9afa1980cd50c/image2.png">
+</p>
 
 <p align="center">
     <em>RViz Environment</em>
