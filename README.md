@@ -61,6 +61,10 @@ ros2 launch sofar_assignment robot_launch.py
 Figure below shows the default Webots Environemnt of the TIAGo robot.
  
 ![alt text](image1.png)
+
+<p align="center">
+    <em>WeBots Environment</em>
+</p>
  
 Also, figure below shows the default [RViz](http://wiki.ros.org/rviz) environment.
  
