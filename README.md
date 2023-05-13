@@ -70,6 +70,10 @@ Also, figure below shows the default [RViz](http://wiki.ros.org/rviz) environmen
  
 ![alt text](image2.png)
 
+<p align="center">
+    <em>RViz Environment</em>
+</p>
+
 The aforementioned task is also performed for the map of [EMARO Lab](https://github.com/EmaroLab) at [University of Genova (UniGe)](https://unige.it/en), Italy. The map is provided by the EMARO Lab team member [Prof. Simone Macciò](https://rubrica.unige.it/personale/UUNAWFho).
 
 ![alt text](image3.png)
