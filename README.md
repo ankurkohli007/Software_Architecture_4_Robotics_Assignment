@@ -78,7 +78,11 @@ The aforementioned task is also performed for the map of [EMARO Lab](https://git
 
 ![alt text](image3.png)
 
-Figure shown above is the 3D map of EMARO Lab. This can be design by making changes by the command below:
+<p align="center">
+    <em>EMARO Lab environment</em>
+</p>
+
+Figure shown above is the environment of EMARO Lab. This can be design by making changes by the command below:
 
 ```
  mask:=src/sofar_assignment/maps/<name-of-the-mask>.yaml
