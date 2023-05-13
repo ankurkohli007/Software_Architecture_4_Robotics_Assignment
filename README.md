@@ -115,6 +115,10 @@ To fullfill the requirement the architecture of the assignment is designed as sh
 
 ![alt text](image6.png)
 
+<p align="center">
+    <em>Architecture</em>
+</p>
+
 ## Performance of the TIAGo Robot ## 
 
 ![Alt Text](output.gif)
