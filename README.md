@@ -61,7 +61,7 @@ ros2 launch sofar_assignment robot_launch.py
 Figure below shows the default Webots Environemnt of the TIAGo robot.
  
 <p align="center">
-  <img width="800" height="600" src="https://github.com/ankurkohli007/Software_Architecture_4_Robotics_Assignment/blob/9ffae113db0be17839b661395d6f4b914bdedf55/image1.png">
+  <img width="900" height="500" src="https://github.com/ankurkohli007/Software_Architecture_4_Robotics_Assignment/blob/9ffae113db0be17839b661395d6f4b914bdedf55/image1.png">
 </p>
 
 <p align="center">
