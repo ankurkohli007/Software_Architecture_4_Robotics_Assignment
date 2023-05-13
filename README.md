@@ -100,7 +100,9 @@ ros2 launch sofar_assignment robot_launch.py map:=src/sofar_assignment/maps/emar
 ```
 Also, figure below shows the EMARO Lab [RViz](http://wiki.ros.org/rviz) environment.
 
-![alt text](image4.png)
+<p align="center">
+  <img width="900" height="500" src="https://github.com/ankurkohli007/Software_Architecture_4_Robotics_Assignment/blob/17a7e5f61d7d5f7896a6a41866cede728c1abfcf/image3.png">
+</p>
 
 <p align="center">
     <em>RViz environment of EMARO Lab</em>
