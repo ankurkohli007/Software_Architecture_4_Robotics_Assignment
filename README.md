@@ -123,6 +123,10 @@ To fullfill the requirement the architecture of the assignment is designed as sh
 
 ![Alt Text](output.gif)
 
+<p align="center">
+    <em>TIAGo Robot Performance</em>
+</p>
+
 Here is the perfomance of the TIAGo Robot in the default environment. 
 
 ## Conclusion ##
